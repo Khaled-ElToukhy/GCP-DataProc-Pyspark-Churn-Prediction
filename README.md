@@ -8,8 +8,6 @@ This project implements an ETL (Extract, Transform, Load) pipeline using PySpark
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Data Cleaning and Analysis](#data-cleaning-and-analysis)
-- [Churn Prediction Model](#churn-prediction-model)
 - [Docker Deployment](#docker-deployment)
 - [Running on GCP Dataproc](#running-on-gcp-dataproc)
 
@@ -33,16 +31,7 @@ To run this project, you'll need the following requirements:
 4. Download the dataset to be used for the ETL pipeline and place it in the `data` directory.
 
 ## Usage
-1. Run the ETL pipeline by executing the following command:
-This will extract the data from the PostgreSQL database, perform data cleaning and analysis using PySpark, and return the clean data to the database.
-
-2. Use the Jupyter notebook `churn_prediction.ipynb` to explore the churn prediction model. This notebook contains the code for training and evaluating the Decision Trees model with hyperparameter tuning.
-
-## Data Cleaning and Analysis
-The `etl_pipeline.py` script performs various data cleaning and analysis tasks using PySpark. It handles missing values, performs data transformations, and applies statistical analysis to gain insights from the data.
-
-## Churn Prediction Model
-The `churn_prediction.ipynb` notebook contains the code for building a churn prediction model using Decision Trees. It includes data preprocessing, model training, and evaluation using hyperparameter tuning techniques.
+1. Use the Jupyter notebook `churn_prediction.ipynb` to explore the churn prediction model. This notebook contains the code for training and evaluating the Decision Trees model with hyperparameter tuning.
 
 ## Docker Deployment
 This project includes Docker containers and Dockerfiles for easy deployment. The `Dockerfile` can be used to build an image of the project with all the necessary dependencies. Use the following commands to build and run the Docker image:
@@ -52,7 +41,7 @@ Replace `<cluster-name>`, `<region>`, `<path-to-pyspark-script>`, and `<pyspark-
 8. Monitor the job progress in the Dataproc cluster UI or using the GCP Console.
 
 Feel free to modify and adapt this project according to your specific requirements. Happy coding!
-Access the Jupyter notebook by opening a web browser and navigating to `http://localhost:8888`.
+Access the Jupyter notebook by opening a web browser and navigating to `http://localhost:10000`.
 
 ## Running on GCP Dataproc
 To run the PySpark job on a GCP Dataproc cluster, follow these steps:
