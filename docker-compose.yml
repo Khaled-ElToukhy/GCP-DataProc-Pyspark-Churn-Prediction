@@ -1,0 +1,49 @@
+version: '3.9'
+services:
+ pgdatabase:
+  image: 'postgres:latest'
+  container_name: 'pgdatabase'
+  restart: 'always'
+  environment:
+   POSTGRES_USER: user
+   POSTGRES_PASSWORD: user
+   POSTGRES_DB: churn_data
+  ports:
+   - 5432:5432
+  volumes:
+   - "./postgres_data:/var/lib/postgresql/data:rw"
+
+
+ ingest_database:
+  image: 'ingest'
+  container_name: 'ingestion'
+  depends_on:
+   - pgdatabase
+  restart: always
+
+ 
+ jupyter_notebook:
+  image: 'jupyter/all-spark-notebook'
+  container_name: 'notebook'
+  ports :
+   - 10000:8888
+  volumes:
+   - "./:/home/jovyan/work"
+  depends_on:
+   - pgdatabase
+  restart: always
+
+ 
+ pgadmin:
+  image: 'dpage/pgadmin4:latest'
+  container_name: 'pgadmin'
+  environment:
+   PGADMIN_DEFAULT_EMAIL: admin@admin.com
+   PGADMIN_DEFAULT_PASSWORD: user
+  volumes:
+   - "./data_pgadmin:/var/lib/pgadmin"
+  ports:
+   - 8080:80
+  depends_on:
+   - pgdatabase
+    

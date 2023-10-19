@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "careful-triumph-401501",
+  "private_key_id": "6b50ffcc9dd3fde291a3fd7292f73f80228000ff",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8AX0xd0wrWzuX\nSTYh95P499jPasdiR1EM0r4USPoZJewqAeA7BONE/BDcu00NErEns3dkOmmbg5+g\nIBCHdstuqLCs0Tjz/Bf9M5gL7x67I5nQfBVzljh2XMsgnBDdo6VHBUPL3Tvco3Y/\n3wC3CdxWZegTNByyi89f/hw9OrF7d4Az1qkeAQJIfoXNIL9Wowrc/Njcum+4JM4T\nAKOFmzKMiWl26w04hu7HLm8doK5KUYfkB8Oaq6YWSvIhVeaFPn3a0UFXgUMEOYBt\nbstE6yrHKdqo3a15pZaLE1UVt3eu4IMoHmIVcD3dyT0QG+i4iupRIZhdjJ9WQ9dN\nS52da6AnAgMBAAECggEAQG2WNKx4WudR/Z9mQK+ycwCkuTgTifd8rBNQdm0n4BRh\n4WdxK2iaZdqoAKzjU9aTBVL4WE24QUYTHvG+GF46ivqeSSsOBHbg1bGnqndQpbsm\njA7p3wmc4dsc9VjmYr4g9ry0Jhnz2MHf1TWb7h4f9y/HH0WdjAZjk7bmgIkrp26N\napDB8fZouoHuKFRQgDTCLtaAEbK6+FLh+He0Zg0D1QQVrBOPytjT20sDPPRCZmeo\n/iFELdDRd12pacXZV8MvI/iCgNEokDbSgFepLWQlGlMMTnBoaxlxsVBV89cdeOwt\nVAOqHvM/pakIWMvzvDmThjt4Po/PpmVHA9TKS7CBYQKBgQD+Wlsc4vEgPCOwRvBT\nM9zYDDIv9FFfy9xatRWO7RXv+4fu0pClP7wyHqhXNtaGryBRB6OQBIZQDWS3Ezlc\no90R1eRvpIdEw/7VfouoxBvK5zpCoweU3uxGyEX71SZEHKdsB069o0KmSPcetDuQ\n8XGLXVj9jd9sBNBkWYX5nkCBMQKBgQC9OSYNhxMuQok39YZYusVZvwlLvskB77RJ\n+YjzrffIVuWc+PwVq28v60Zy/8UFdcI7xqyaAGRJe5zlGui4L4u5GxlnpK/F26fH\nIZvjTxvUkVdY/qK8YmTRBfNfBJNrrKYaa5AYCwdGWExShUW/7JuxgLQ1EUNfuXyB\nljQdKGkg1wKBgQDJa1Afre94sWcpnuONX9KRHAdaRkVycQOMqT3rMwBeTHe2vfRh\nh/lGT1TLy9dSTLhwsnXqBEtAdXq+J3ETVYgpKZJ+fnHIGNVix5VdDf9cTIOsZWIJ\nmAbPfqU86ewln/NM7vSB5BlRiRJ4tA0/mJNr434nPAQjjCRicypPI+y84QKBgF9N\nmUzW62IxQMtebfvileNNxHDR9otzH2ris4eH53SPz7Xv8Yc4gRexeBoTmDfXx6wz\ntFscN2aLS8pYcz3RNJ5Wd8UrvRv6Ndalps4l2e6GBWhdV7lqFTzxslH5DAb/Pemw\nozJ424Eil844MZkoooIUQK85sqVT1tGtxTGqWMihAoGBAJNxNyCTboGuR5eu5LBm\noRtpS05O4XCKWX7OIuUAaIWi61akZ55w4y0L1DlMopvoCl7/fTMlOTOvcQOe14KV\nw//ovDFEGC2I6Tpv3B1Rf82GPS54DuPeL9x0c+1n85McArfetOimaWvxKSOBhCg6\nH6eAPGTjRIMGrsoTJIvrXfyJ\n-----END PRIVATE KEY-----\n",
+  "client_email": "dataproc-job@careful-triumph-401501.iam.gserviceaccount.com",
+  "client_id": "117400037643871478315",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dataproc-job%40careful-triumph-401501.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
